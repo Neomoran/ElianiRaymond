@@ -422,21 +422,9 @@ section {
   background-size: cover;
   background-position: top;
 }
-.flip3D > .img3 {
-  background: url("../imgs/image4.jpg");
-  background-size: cover;
-  background-position: top;
-}
-.flip3D > .img4 {
-  background: url("../imgs/image7.png");
-  background-size: cover;
-  background-position: top;
-}
-.flip3D > .img5 {
-  background: url("../imgs/image5.png");
-  background-size: cover;
-  background-position: top;
-}
+
+
+
 .flip3D > .img6 {
   background: url("../imgs/image9.jpg");
   background-size: cover;
@@ -447,11 +435,7 @@ section {
   background-size: cover;
   background-position: top;
 }
-.flip3D > .img8 {
-  background: url("../imgs/image10.png");
-  background-size: cover;
-  background-position: top;
-}
+
 .flip3D > .img11 {
   background: url("../imgs/image11.png");
   background-size: cover;
@@ -492,21 +476,19 @@ section {
   background-size: cover;
   background-position: top;
 }
+
 .flip3D > .img19 {
   background: url("../imgs/image19.png");
   background-size: cover;
   background-position: top;
 }
+
 .flip3D > .img20 {
   background: url("../imgs/image20.png");
   background-size: cover;
   background-position: top;
 }
-.flip3D > .img21 {
-  background: url("../imgs/image21.png");
-  background-size: cover;
-  background-position: top;
-}
+
 .flip3D > .img22 {
   background: url("../imgs/image22.png");
   background-size: cover;
@@ -532,21 +514,13 @@ section {
   background-size: cover;
   background-position: top;
 }
-.flip3D > .img27 {
-  background: url("../imgs/image27.png");
-  background-size: cover;
-  background-position: top;
-}
+
 .flip3D > .img28 {
   background: url("../imgs/image28.png");
   background-size: cover;
   background-position: top;
 }
-.flip3D > .img29 {
-  background: url("../imgs/image29.png");
-  background-size: cover;
-  background-position: top;
-}
+
 .flip3D > .img30 {
   background: url("../imgs/image30.png");
   background-size: cover;
@@ -562,26 +536,14 @@ section {
   background-size: cover;
   background-position: top;
 }
-.flip3D > .img33 {
-  background: url("../imgs/image33.png");
-  background-size: cover;
-  background-position: top;
-}
+
 .flip3D > .img34 {
   background: url("../imgs/image34.png");
   background-size: cover;
   background-position: top;
 }
-.flip3D > .img35 {
-  background: url("../imgs/image35.png");
-  background-size: cover;
-  background-position: top;
-}
-.flip3D > .img36 {
-  background: url("../imgs/image36.png");
-  background-size: cover;
-  background-position: top;
-}
+
+
 .flip3D > .img37 {
   background: url("../imgs/image37.png");
   background-size: cover;
@@ -604,6 +566,11 @@ section {
 }
 .flip3D > .img41 {
   background: url("../imgs/image41.png");
+  background-size: cover;
+  background-position: top;
+}
+.flip3D > .img42 {
+  background: url("../imgs/image42.png");
   background-size: cover;
   background-position: top;
 }
