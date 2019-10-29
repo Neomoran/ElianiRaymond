@@ -574,6 +574,21 @@ section {
   background-size: cover;
   background-position: top;
 }
+.flip3D > .img43 {
+  background: url("../imgs/image43.png");
+  background-size: cover;
+  background-position: top;
+}
+.flip3D > .img44 {
+  background: url("../imgs/image44.png");
+  background-size: cover;
+  background-position: top;
+}
+.flip3D > .img45 {
+  background: url("../imgs/image45.png");
+  background-size: cover;
+  background-position: top;
+}
 .flip3D > .back {
   position: absolute;
   transform: perspective(600px) rotateY(180deg);
