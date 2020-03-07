@@ -21,7 +21,7 @@
   -ms-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
-  background: #fff;
+  background: #35a8dd;
 }
 /* Adding class close with javascript  */
 .menu-btn.close {
@@ -117,9 +117,9 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url("../imgs/image2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url("../imgs/image2.png");
   user-select: none;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 90%;
@@ -145,7 +145,7 @@
   -o-transform: translate3d(0, 0, 0);
 }
 .menu .nav-item.current > a {
-  color: #b92236;
+  color:#35a8dd;
 }
 .menu .nav-link {
   display: inline-block;
@@ -163,7 +163,7 @@
   -ms-transition: all 0.5s ease-out;
 }
 .menu .nav-link:hover {
-  color: hsl(343, 57%, 19%);
+  color: #35a8dd;
 }
 
 .nav-item:nth-child(1) {
@@ -208,6 +208,7 @@ body {
   height: 100vh;
   margin: 0px;
   line-height: 1.5;
+  user-select: none;
 }
 body#bg-img {
   background: url("../imgs/image1.jpg");
@@ -265,7 +266,7 @@ header {
 }
 
 .text-secondary {
-  color: #4c1525;
+  color: #35a8dd;
 }
 
 main {
@@ -286,13 +287,19 @@ main .icons a {
   padding: 0.4rem;
 }
 main .icons a:hover {
-  color: #4c1525;
+  color: blue;
   transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
 }
+main .icons a:nth-child(2):hover{
+color: orangered;
+}
+main .icons a:nth-child(3):hover{
+  color: gray;
+  }
 main#home {
   overflow: hidden;
 }
@@ -309,18 +316,27 @@ main#home h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 #aboutbody {
-  background: hsl(0, 0%, 10%);
+  background: #fff;
 }
 #about #button,
 #about #button3 {
   padding: 5px;
-  background: hsl(0, 0%, 10%);
+  background: #fff;
+  outline: none;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+#about #button:hover,
+#about #button3:hover{
+  background: #000;
   color: #fff;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  border-radius: 4px;
 }
 #about .lg-heading {
   padding-bottom: 2.2rem;
+  color:#35a8dd;
+  text-align: center;
 }
 .about-info {
   display: grid;
@@ -333,12 +349,12 @@ main#home h1 {
 .about-info .bio-image {
   grid-area: bioimage;
   margin: auto;
-  border: solid 2px #1a1a1a;
   border-radius: 70%;
+  user-select: none;
 }
 .about-info .bio {
   grid-area: bio;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 0;
 }
 .about-info .bio h3 {
@@ -347,7 +363,7 @@ main#home h1 {
   color: #fff;
 }
 .about-info .bio p {
-  color: #fff;
+  color: #000;
 }
 .about-info .job {
   padding: 0.5rem;
@@ -355,11 +371,11 @@ main#home h1 {
 }
 
 .about-info .job h4 {
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 .about-info .job p {
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 .about-info .job-1 {
